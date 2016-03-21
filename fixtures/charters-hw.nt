@@ -1,0 +1,232 @@
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix pcdm: <http://pcdm.org/models#> .
+@prefix hydra-works: <http://projecthydra.org/works/> .
+
+<./files> a ldp:AdministrativeSet .
+<./files> ldp:contains <./files/00300_2003_001_AC> .
+<./files> ldp:contains <./files/00300_2003_001_MA> .
+<./files> ldp:contains <./files/00303_2003_001_AC> .
+<./files> ldp:contains <./files/00303_2003_001_MA> .
+<./files> ldp:contains <./files/00303_2003_002_AC> .
+<./files> ldp:contains <./files/00303_2003_002_MA> .
+<./files> ldp:contains <./files/00303_2003_003_AC> .
+<./files> ldp:contains <./files/00303_2003_003_MA> .
+<./files> ldp:contains <./files/00303_2003_004_AC> .
+<./files> ldp:contains <./files/00303_2003_004_MA> .
+<./files> ldp:contains <./files/00306_2003_001_AC> .
+<./files> ldp:contains <./files/00306_2003_001_MA> .
+<./files> ldp:contains <./files/Declaration_Pg2of2_AC> .
+
+<./files/00300_2003_001_AC> a hydra-works:FileSet .
+<./files/00300_2003_001_AC> pcdm:hasFile <./files/00300_2003_001_AC.jpg> .
+<./files/00300_2003_001_MA> a hydra-works:FileSet .
+<./files/00300_2003_001_MA> pcdm:hasFile <./files/00300_2003_001_MA.jpg> .
+<./files/00303_2003_001_AC> a hydra-works:FileSet .
+<./files/00303_2003_001_AC> pcdm:hasFile <./files/00303_2003_001_AC.jpg> .
+<./files/00303_2003_001_MA> a hydra-works:FileSet .
+<./files/00303_2003_001_MA> pcdm:hasFile <./files/00303_2003_001_MA.jpg> .
+<./files/00303_2003_002_AC> a hydra-works:FileSet .
+<./files/00303_2003_002_AC> pcdm:hasFile <./files/00303_2003_002_AC.jpg> .
+<./files/00303_2003_002_MA> a hydra-works:FileSet .
+<./files/00303_2003_002_MA> pcdm:hasFile <./files/00303_2003_002_MA.jpg> .
+<./files/00303_2003_003_AC> a hydra-works:FileSet .
+<./files/00303_2003_003_AC> pcdm:hasFile <./files/00303_2003_003_AC.jpg> .
+<./files/00303_2003_003_MA> a hydra-works:FileSet .
+<./files/00303_2003_003_MA> pcdm:hasFile <./files/00303_2003_003_MA.jpg> .
+<./files/00303_2003_004_AC> a hydra-works:FileSet .
+<./files/00303_2003_004_AC> pcdm:hasFile <./files/00303_2003_004_AC.jpg> .
+<./files/00303_2003_004_MA> a hydra-works:FileSet .
+<./files/00303_2003_004_MA> pcdm:hasFile <./files/00303_2003_004_MA.jpg> .
+<./files/00306_2003_001_AC> a hydra-works:FileSet .
+<./files/00306_2003_001_AC> pcdm:hasFile <./files/00306_2003_001_AC.jpg> .
+<./files/00306_2003_001_MA> a hydra-works:FileSet .
+<./files/00306_2003_001_MA> pcdm:hasFile <./files/00306_2003_001_MA.jpg> .
+<./files/Declaration_Pg2of2_AC> a hydra-works:FileSet .
+<./files/Declaration_Pg2of2_AC> pcdm:hasFile <./files/Declaration_Pg2of2_AC.jpg> .
+
+<./2005616761> a hydra-works:Work .
+<./2005616761> dc:title "The Charters of Freedom" .
+# snipping contents of ./descriptions/2005616761.nt
+<./2005616761> ldp:contains <./2005616761/members> .
+
+<./2005616761/members> a ldp:IndirectContainer .
+<./2005616761/members> ldp:hasMemberRelation pcdm:hasMember .
+<./2005616761/members> ldp:insertedContentRelation ore:proxyFor .
+<./2005616761/members> ldp:membershipResource <./2005616761>
+<./2005616761/members> ldp:contains <./2005616761/members/1>.
+<./2005616761/members> ldp:contains <./2005616761/members/2>.
+<./2005616761/members> ldp:contains <./2005616761/members/3>.
+
+<./2005616761/members/1> a ore:Proxy .
+<./2005616761/members/1> ore:proxyFor <./1408042> .
+<./2005616761/members/2> a ore:Proxy .
+<./2005616761/members/2> ore:proxyFor <./1419123> .
+<./2005616761/members/3> a ore:Proxy .
+<./2005616761/members/3> ore:proxyFor <./1667751> .
+
+<./1408042> a hydra-works:Work .
+<./1408042> dc:title "Bill of Rights" .
+# snipping contents of ./descriptions/1408042.nt
+<./1408042> ldp:contains <./1408042/members> .
+
+<./1408042/members> a ldp:IndirectContainer .
+<./1408042/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1408042/members> ldp:insertedContentRelation ore:proxyFor .
+<./1408042/members> ldp:membershipResource <./1408042> .
+<./1408042/members> ldp:contains <./1408042/members/1> .
+
+<./1408042/members/1> a ore:Proxy .
+<./1408042/members/1> ore:proxyFor <./1408042.1> .
+
+<./1408042.1> a hydra-works:Work .
+<./1408042.1> ldp:contains <./1408042.1/members> .
+
+<./1408042.1/members> a ldp:IndirectContainer .
+<./1408042.1/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1408042.1/members> ldp:insertedContentRelation ore:proxyFor .
+<./1408042.1/members> ldp:membershipResource <./1408042.1> .
+<./1408042.1/members> ldp:contains <./1408042.1/members/1> .
+<./1408042.1/members> ldp:contains <./1408042.1/members/2> .
+
+<./1408042.1/members/1> a ore:Proxy .
+<./1408042.1/members/1> ore:proxyFor <./files/00306_2003_001_AC> .
+<./1408042.1/members/2> a ore:Proxy .
+<./1408042.1/members/2> ore:proxyFor <./files/00306_2003_001_MA> .
+
+<./1419123> a hydra-works:Work .
+<./1419123> dc:title "Declaration of Independence" .
+# snipping contents of ./descriptions/1419123.nt
+<./1419123> ldp:contains <./1419123/members> .
+
+<./1419123/members> a ldp:IndirectContainer .
+<./1419123/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1419123/members> ldp:insertedContentRelation ore:proxyFor .
+<./1419123/members> ldp:membershipResource <./1419123> .
+<./1419123/members> ldp:contains <./1419123/members/1> .
+<./1419123/members> ldp:contains <./1419123/members/2> .
+
+<./1419123/members/1> a ore:Proxy .
+<./1419123/members/1> ore:proxyFor <./1419123.1>
+<./1419123/members/2> a ore:Proxy .
+<./1419123/members/2> ore:proxyFor <./1419123.2>
+
+<./1419123.1> a hydra-works:Work .
+<./1419123.1> dc:title "Recto" .
+<./1419123.1> ldp:contains <./1419123.1/members> .
+
+<./1419123.1/members> a ldp:IndirectContainer .
+<./1419123.1/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1419123.1/members> ldp:insertedContentRelation ore:proxyFor .
+<./1419123.1/members> ldp:membershipResource <./1419123.1> .
+<./1419123.1/members> ldp:contains <./1419123.1/members/1> .
+<./1419123.1/members> ldp:contains <./1419123.1/members/2> .
+
+<./1419123.1/members/1> a ore:Proxy .
+<./1419123.1/members/1> ore:proxyFor <./files/00300_2003_001_AC> .
+<./1419123.1/members/2> a ore:Proxy .
+<./1419123.1/members/2> ore:proxyFor <./files/00300_2003_001_MA> .
+
+<./1419123.2> a hydra-works:Work .
+<./1419123.2> dc:title "Verso" .
+<./1419123.2> ldp:contains <./1419123.2/members> .
+
+<./1419123.2/members> a ldp:IndirectContainer .
+<./1419123.2/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1419123.2/members> ldp:insertedContentRelation ore:proxyFor .
+<./1419123.2/members> ldp:membershipResource <./1419123.2>
+<./1419123.2/members> ldp:contains <./1419123.2/members/1> .
+
+<./1419123.2/members/1> a ore:Proxy .
+<./1419123.2/members/1> ore:proxyFor <./files/Declaration_Pg2of2> .
+
+<./1667751> a hydra-works:Work;
+<./1667751> dc:title "Constitution of the United States";
+# snipping contents of ./descriptions/1667751.nt
+<./1667751> ldp:contains <./1667751/members> .
+
+<./1667751/members> a ldp:IndirectContainer .
+<./1667751/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1667751/members> ldp:insertedContentRelation ore:proxyFor .
+<./1667751/members> ldp:membershipResource <./1667751>
+<./1667751/members> ldp:contains <./1667751/members/1> .
+<./1667751/members> ldp:contains <./1667751/members/2> .
+<./1667751/members> ldp:contains <./1667751/members/3> .
+<./1667751/members> ldp:contains <./1667751/members/4> .
+
+<./1667751/members/1> a ore:Proxy .
+<./1667751/members/1> ore:proxyFor <./1667751.1> .
+<./1667751/members/2> a ore:Proxy .
+<./1667751/members/2> ore:proxyFor <./1667751.2> .
+<./1667751/members/3> a ore:Proxy .
+<./1667751/members/3> ore:proxyFor <./1667751.3> .
+<./1667751/members/4> a ore:Proxy .
+<./1667751/members/4> ore:proxyFor <./1667751.4> .
+
+<./1667751.1> a hydra-works:Work .
+ # txt transcription tricky fit to hydra:works proscription of File aggregation
+<./1667751.1> ldp:contains <./1667751.1/00303_2003_001.txt> .
+<./1667751.1> ldp:contains <./1667751.1/members> .
+
+<./1667751.1/members> a ldp:IndirectContainer .
+<./1667751.1/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1667751.1/members> ldp:insertedContentRelation ore:proxyFor .
+<./1667751.1/members> ldp:membershipResource <./1667751.1>
+<./1667751.1/members> ldp:contains <./1667751.1/members/1> .
+<./1667751.1/members> ldp:contains <./1667751.1/members/2> .
+
+<./1667751.1/members/1> a ore:Proxy .
+<./1667751.1/members/1> ore:proxyFor <./files/00303_2003_001_AC> .
+<./1667751.1/members/2> a ore:Proxy .
+<./1667751.1/members/2> ore:proxyFor <./files/00303_2003_001_MA> .
+
+<./1667751.2> a hydra-works:Work;
+ # txt transcription tricky fit to hydra:works proscription of File aggregation
+<./1667751.2> ldp:contains <./1667751.2/00303_2003_002.txt> .
+<./1667751.2> ldp:contains <./1667751.2/members> .
+
+<./1667751.2/members> a ldp:IndirectContainer .
+<./1667751.2/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1667751.2/members> ldp:insertedContentRelation ore:proxyFor .
+<./1667751.2/members> ldp:membershipResource <./1667751.2>
+<./1667751.2/members> ldp:contains <./1667751.2/members/1> .
+<./1667751.2/members> ldp:contains <./1667751.2/members/2> .
+
+<./1667751.2/members/1> a ore:Proxy .
+<./1667751.2/members/1> ore:proxyFor <./files/00303_2003_002_AC> .
+<./1667751.2/members/2> a ore:Proxy .
+<./1667751.2/members/2> ore:proxyFor <./files/00303_2003_002_MA> .
+
+<./1667751.3> a hydra-works:Work;
+ # txt transcription tricky fit to hydra:works proscription of File aggregation
+<./1667751.3> ldp:contains <./1667751.3/00303_2003_003.txt> .
+<./1667751.3> ldp:contains <./1667751.3/members> .
+
+<./1667751.3/members> a ldp:IndirectContainer .
+<./1667751.3/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1667751.3/members> ldp:insertedContentRelation ore:proxyFor .
+<./1667751.3/members> ldp:membershipResource <./1667751.3>
+<./1667751.3/members> ldp:contains <./1667751.3/members/1> .
+<./1667751.3/members> ldp:contains <./1667751.3/members/2> .
+
+<./1667751.3/members/1> a ore:Proxy .
+<./1667751.3/members/1> ore:proxyFor <./files/00303_2003_003_AC> .
+<./1667751.3/members/2> a ore:Proxy .
+<./1667751.3/members/2> ore:proxyFor <./files/00303_2003_003_MA> .
+
+<./1667751.4> a hydra-works:Work;
+ # txt transcription tricky fit to hydra:works proscription of File aggregation
+<./1667751.4> ldp:contains <./1667751.4/00303_2003_004.txt> .
+<./1667751.4> ldp:contains <./1667751.4/members> .
+
+<./1667751.4/members> a ldp:IndirectContainer .
+<./1667751.4/members> ldp:hasMemberRelation pcdm:hasMember .
+<./1667751.4/members> ldp:insertedContentRelation ore:proxyFor .
+<./1667751.4/members> ldp:membershipResource <./1667751.4>
+<./1667751.4/members> ldp:contains <./1667751.4/members/1> .
+<./1667751.4/members> ldp:contains <./1667751.4/members/2> .
+
+<./1667751.4/members/1> a ore:Proxy .
+<./1667751.4/members/1> ore:proxyFor <./files/00303_2003_004_AC> .
+<./1667751.4/members/2> a ore:Proxy .
+<./1667751.4/members/2> ore:proxyFor <./files/00303_2003_004_MA> .

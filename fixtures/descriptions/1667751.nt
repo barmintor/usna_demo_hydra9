@@ -1,0 +1,8 @@
+<> <http://purl.org/dc/terms/identifier> <https://catalog.archives.gov/id/1667751> .
+<> <http://purl.org/dc/terms/created> "1787-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<> <http://purl.org/dc/terms/creator> <http://id.loc.gov/authorities/names/n80039712> .
+<> <http://purl.org/dc/terms/format> "Parchment" .
+<> <http://purl.org/dc/terms/publisher> <http://id.loc.gov/authorities/names/n84176101> .
+<> <http://purl.org/dc/terms/title> "Constitution of the United States" .
+<> <http://purl.org/dc/terms/type> "Text" .
+<> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.archives.gov/exhibits/charters/constitution.html> .

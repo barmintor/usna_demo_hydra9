@@ -1,0 +1,24 @@
+<> <http://purl.org/dc/terms/identifier> <https://lccn.loc.gov/2005616761> .
+<> <http://purl.org/dc/terms/identifier> "(OCoLC)ocm41000176" .
+<> <http://purl.org/dc/terms/title> "The Charters of Freedom" .
+<> <http://purl.org/dc/terms/format> "electronic resource" .
+<> <http://purl.org/dc/terms/creator> <http://id.loc.gov/authorities/names/n84176101> .
+<> <http://purl.org/dc/terms/created> "1997"^^<http://www.w3.org/2001/XMLSchema#date> .
+<> <http://purl.org/dc/terms/type> "Text" .
+<> <http://purl.org/dc/terms/publisher> <http://id.loc.gov/authorities/names/n84176101> .
+<> <http://purl.org/dc/terms/language> "en-US" .
+<> <http://purl.org/dc/terms/subject> <http://id.loc.gov/authorities/classification/E173> .
+<> <http://purl.org/dc/terms/description>
+"The Charters of Freedom web page on the National Archives & Records Administration website offers high resolution versions of the Declaration of Independence, the Constitution, and the Bill of Rights, and transcriptions of each document. Essays that provide historical context for the writing of the Declaration of Independence and the Constitution are also presented. In addition, the Charters of Freedom web pages contain biographical profiles of the signers of the Declaration of Independence, and the delegates to the Constitutional Convention (identified as the Founding Fathers on this site). Sections entitled the \"Making of the Charters" and the \"Impact of the Charters\" focus on topics such as the \"Articles of Confederation,\" the role of slavery in the war for independence, the Civil War, and the rights of suffrage." .
+<> <http://purl.org/dc/terms/description> "Mode of access: World Wide Web." .
+
+<> <http://purl.org/dc/terms/subject> <http://id.loc.gov/authorities/names/n79029194> .
+<> <http://purl.org/dc/terms/subject> <http://id.loc.gov/authorities/names/no2008000433> .
+<> <http://purl.org/dc/terms/subject> <http://id.loc.gov/authorities/names/n83073936> .
+<> <http://purl.org/dc/terms/subject> "United States. National Archives and Records Administration--Exhibitions." .
+<> <http://purl.org/dc/terms/subject> "Constitutional history--United States--Sources." .
+<> <http://purl.org/dc/terms/subject> "Online exhibits" .
+<> <http://purl.org/dc/terms/coverage> "United States--Politics and government--1775-1783--Sources." .
+<> <http://purl.org/dc/terms/coverage> "United States--History--Sources--Exhibitions." .
+<> <seeAlso><http://www.archives.gov/national_archives_experience/charters/charters.html> .
+<> <seeAlso><http://www.nara.gov/exhall/charters/charters.html> .
